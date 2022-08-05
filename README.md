@@ -1,24 +1,25 @@
-# neoway-test
+<h1 align="center">📰 News Vue App 📰</h1>
 
-## Project setup
-```
-yarn install
-```
+News application using [News API][*1] and Vuex
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 🔧 Build Setup
 
-### Compiles and minifies for production
-```
-yarn build
+### Environment
+
+Create `.env` file and add `VUE_APP_MY_API_KEY`. Set the News API Key to the value.
+
+```bash
+VUE_APP_MY_API_KEY=<your News API Key>
 ```
 
-### Lints and fixes files
-```
-yarn lint
+### Run locally
+
+```bash
+$ yarn install
+
+$ yarn serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## powered by NewsAPI.org
+
+[*1]: https://newsapi.org/
