@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ <NavMenu/>
+  <ArticlesItem/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ArticlesItem from './components/ArticlesItem.vue'
+import NavMenu from './components/NavMenu.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ArticlesItem,
+    NavMenu
   }
 }
 </script>
 
-<style>
+
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  background: #1A1B22;
 }
 </style>
